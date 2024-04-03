@@ -1,0 +1,22 @@
+{
+  "name": "fiscal-npm",
+  "version": "1.0.0",
+  "description": "A fiscal library to manage calculations",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build":"tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bishnu07/fiscal-npm.git"
+  },
+  "keywords": [],
+  "author": "Vishnu k <bbbishnu7@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  },
+  "files": ["lib/**/*"]
+}
